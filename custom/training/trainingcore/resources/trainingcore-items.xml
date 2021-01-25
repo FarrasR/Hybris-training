@@ -157,6 +157,19 @@
                         <modifiers/>
                         <persistence type="property"/>
                     </attribute>
+
+                    <attribute qualifier="location" type="localized:java.lang.String">
+                        <description>Seller location</description>
+                        <modifiers/>
+                        <persistence type="property"/>
+                    </attribute>
+
+                    <attribute qualifier="npwp" type="localized:java.lang.String">
+                        <description>Seller NPWP</description>
+                        <modifiers/>
+                        <persistence type="property"/>
+                    </attribute>
+
                 </attributes>
             </itemtype>
         </typegroup>
